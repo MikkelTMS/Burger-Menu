@@ -52,6 +52,10 @@ footer {
  
     
 }
+.a-site{
+    display: flex;
+    flex-direction: row;
+}
 
 #featuredDogs{
    display: flex;
@@ -60,12 +64,17 @@ footer {
 
 #menuOpen{
     background-color: #046407;
-    display: inline;
+    display: inline-block;
     font-size: 1.5rem;
 }
 #nav-container{
     background-color: #046407;
+    margin: 0;
+    display: block;
 }
 #nav a{
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
 }
