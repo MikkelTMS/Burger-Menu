@@ -68,6 +68,7 @@ footer {
     font-size: 2rem;
     height: 2.5rem;
     display: inline-block;
+    padding: 0.3vw;
 }
 #navcontainer{
     background-color: #4caf50;
