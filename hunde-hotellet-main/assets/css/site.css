@@ -20,7 +20,7 @@ section {
     padding: 20px;
     margin: 20px;
     background-color: #fff;
-    border-radius: 5px;
+    
     
 }
 
@@ -48,10 +48,7 @@ footer {
     margin-bottom: 10px;
 }
 
-.container {
- 
-    
-}
+
 .a-site{
     display: flex;
     flex-direction: row;
@@ -64,17 +61,29 @@ footer {
 
 #menuOpen{
     background-color: #046407;
-    display: inline-block;
+    position: sticky;
+    top: 0;
+    z-index: 100;
     font-size: 1.5rem;
+    height: 2.5rem;
+    display: inline-block;
 }
-#nav-container{
+#navcontainer{
     background-color: #046407;
     margin: 0;
-    display: block;
+    display: none;
+    
 }
 #nav a{
     text-decoration: none;
     display: flex;
     flex-direction: row;
     margin: 1rem;
+}
+
+nav{
+    position: sticky;
+    top: 2vw;
+    z-index: 100;
+    margin-top: 2vw;
 }
