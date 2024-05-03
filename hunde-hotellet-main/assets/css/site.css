@@ -61,29 +61,33 @@ footer {
 
 #menuOpen{
     background-color: #046407;
+    color: white;
     position: sticky;
     top: 0;
     z-index: 100;
-    font-size: 1.5rem;
+    font-size: 2rem;
     height: 2.5rem;
     display: inline-block;
 }
 #navcontainer{
-    background-color: #046407;
+    background-color: #4caf50;
     margin: 0;
     display: none;
+    width: 15vw;
     
 }
 #nav a{
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    margin: 1rem;
+    margin: 2.5rem;
+    color: white;
+    font-size: 2vw;
 }
 
 nav{
     position: sticky;
-    top: 2vw;
+    top: 4vw;
     z-index: 100;
     margin-top: 2vw;
 }
